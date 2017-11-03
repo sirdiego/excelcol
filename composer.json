@@ -1,0 +1,24 @@
+{
+  "name": "diego/excel-converter",
+  "description": "Converts Excel row names to numbers.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "diego",
+      "email": "diego@sirdiego.de"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "4.2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  },
+  "require": {
+    "symfony/console": "^3.3"
+  },
+  "bin": ["excelcol"]
+}
